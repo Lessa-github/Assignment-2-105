@@ -48,10 +48,11 @@ final_result = multiplication_result + b
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Print the HTTP header and the HTML response body
-print("Content-Type: text/html\n")
+print("Content-Type: text/html")
+print()
 print("===========================================<br>")
 print("Assignment #2<br>")
-print("Your_Lastname<br>") # Replace with your last name
+print("Lessa<br>") # Replace with your last name
 print(f"Final Result: {final_result:.1f}<br>")
 print(f"Step 1: c = {c:.1f} , c³ = {c_cubed:.1f}<br>")
 print(f"Step 2: √(c³) = {sqrt_c_cubed:.1f}<br>")
