@@ -48,8 +48,7 @@ final_result = multiplication_result + b
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Print the HTTP header and the HTML response body
-print("Content-Type: text/html")
-print()
+print("Content-Type: text/html\r\n")
 print("===========================================<br>")
 print("Assignment #2<br>")
 print("Lessa<br>") # Replace with your last name
